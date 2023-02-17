@@ -79,3 +79,8 @@ xpack.fleet.agentPolicies:
                 value: 0.0.0.0:8200
               - name: url
                 value: http://apm-server:8200
+
+# user rule 추가 위한 옵션
+xpack:
+  encryptedSavedObjects:
+    encryptionKey: 'hello-edoing-elk-object-encryptionKey-is-available'
